@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.google.photos" name="Kodi Google photos" version="1.0.0" provider-name="mc.gravity">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.requests" version="2.22.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Kodi Google photos</summary>
+		<description lang="en">Kodi Google photos</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source>https://github.com/mcgravity/kodi-google-photos</source>
+		<website>Kodi.tv</website>
+		<email>mc.gravity@gmail.com</email>
+	</extension>
+</addon>
